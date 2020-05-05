@@ -1,0 +1,1667 @@
+0 0.023273401260375977 secs per iter
+Tue May  5 11:05:14 2020    [Profile]forward
+
+         146720 function calls (143805 primitive calls) in 0.191 seconds
+
+   Ordered by: internal time
+   List reduced from 1104 to 11 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.033    0.000    0.033    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+       20    0.012    0.001    0.012    0.001 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+   380/20    0.008    0.000    0.186    0.009 base_layer.py:710(__call__)
+9245/9105    0.005    0.000    0.007    0.000 {built-in method builtins.hasattr}
+    14817    0.004    0.000    0.007    0.000 {built-in method builtins.isinstance}
+      580    0.004    0.000    0.004    0.000 ops.py:6364(enter_eager_name_scope)
+      160    0.003    0.000    0.011    0.000 backend.py:4209(relu)
+       20    0.003    0.000    0.175    0.009 network.py:769(_run_internal_graph)
+      782    0.003    0.000    0.015    0.000 nest.py:475(map_structure)
+     2800    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.Flatten}
+      380    0.002    0.000    0.008    0.000 base_layer.py:1947(_set_mask_metadata)
+
+
+Tue May  5 11:05:14 2020    [Profile]rendering
+
+         1145 function calls in 0.002 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:05:14 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.052 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.019    0.000    0.019    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+       20    0.011    0.001    0.011    0.001 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+        1    0.006    0.006    0.051    0.051 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+
+
+PSNR: 7.150141716003418
+25 0.46655414581298826 secs per iter
+Tue May  5 11:05:26 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.149 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.035    0.000    0.035    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.009    0.000    0.144    0.007 base_layer.py:710(__call__)
+       20    0.005    0.000    0.005    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:05:26 2020    [Profile]rendering
+
+         1145 function calls in 0.003 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:05:26 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.044 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.018    0.000    0.018    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.006    0.006    0.044    0.044 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 10.928627967834473
+50 0.46596654891967776 secs per iter
+Tue May  5 11:05:38 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.146 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.034    0.000    0.034    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.009    0.000    0.142    0.007 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:05:38 2020    [Profile]rendering
+
+         1145 function calls in 0.002 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:05:38 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.042 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.017    0.000    0.017    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.006    0.006    0.042    0.042 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 11.072088241577148
+75 0.46252731323242186 secs per iter
+Tue May  5 11:05:49 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.131 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.128    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:05:49 2020    [Profile]rendering
+
+         1145 function calls in 0.003 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:05:49 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.038 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.037    0.037 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 11.894221305847168
+100 0.4628136157989502 secs per iter
+Tue May  5 11:06:01 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.135 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.031    0.000    0.031    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.131    0.007 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:06:01 2020    [Profile]rendering
+
+         1145 function calls in 0.003 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:06:01 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.040 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.006    0.006    0.039    0.039 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 13.89281940460205
+125 0.4624513626098633 secs per iter
+Tue May  5 11:06:12 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.139 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.033    0.000    0.033    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.135    0.007 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:06:12 2020    [Profile]rendering
+
+         1145 function calls in 0.002 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:06:12 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.039 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.038    0.038 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 15.433659553527832
+150 0.4612611484527588 secs per iter
+Tue May  5 11:06:24 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.125 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.029    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.122    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:06:24 2020    [Profile]rendering
+
+         1145 function calls in 0.008 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.006    0.006    0.006    0.006 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:06:24 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.037    0.037 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 16.294023513793945
+175 0.461731595993042 secs per iter
+Tue May  5 11:06:35 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.128 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.124    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:06:35 2020    [Profile]rendering
+
+         1145 function calls in 0.006 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    0.003    0.003 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:06:35 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.040 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.039    0.039 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 17.75018310546875
+200 0.4638020992279053 secs per iter
+Tue May  5 11:06:47 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.138 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.032    0.000    0.032    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.134    0.007 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:06:47 2020    [Profile]rendering
+
+         1145 function calls in 0.002 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:06:47 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.039 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.038    0.038 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 17.553503036499023
+225 0.4676381015777588 secs per iter
+Tue May  5 11:06:59 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.130 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.031    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.126    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:06:59 2020    [Profile]rendering
+
+         1145 function calls in 0.003 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:06:59 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.040 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.040    0.040 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 16.575149536132812
+250 0.46186023712158203 secs per iter
+Tue May  5 11:07:10 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.128 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.124    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:07:10 2020    [Profile]rendering
+
+         1145 function calls in 0.005 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    0.003    0.003 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:07:10 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.038 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.038    0.038 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 18.40333366394043
+275 0.4607698345184326 secs per iter
+Tue May  5 11:07:22 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.127 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.123    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:07:22 2020    [Profile]rendering
+
+         1145 function calls in 0.006 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.004    0.004    0.004    0.004 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:07:22 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.038 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.037    0.037 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 18.921232223510742
+300 0.4606918239593506 secs per iter
+Tue May  5 11:07:33 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.133 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.031    0.000    0.031    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.129    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:07:33 2020    [Profile]rendering
+
+         1145 function calls in 0.003 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:07:33 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.036    0.036 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 19.851238250732422
+325 0.4609188365936279 secs per iter
+Tue May  5 11:07:45 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.126 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.122    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:07:45 2020    [Profile]rendering
+
+         1145 function calls in 0.007 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005    0.005    0.005 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:07:45 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.036    0.036 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 20.4166316986084
+350 0.46060483932495117 secs per iter
+Tue May  5 11:07:56 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.128 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.124    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:07:56 2020    [Profile]rendering
+
+         1145 function calls in 0.005 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    0.003    0.003 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:07:56 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.036 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.035    0.035 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 20.288698196411133
+375 0.46870027542114256 secs per iter
+Tue May  5 11:08:08 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.129 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.125    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:08:08 2020    [Profile]rendering
+
+         1145 function calls in 0.005 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.002    0.002 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:08:08 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.037    0.037 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 19.849882125854492
+400 0.46134796142578127 secs per iter
+Tue May  5 11:08:20 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.129 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.125    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:08:20 2020    [Profile]rendering
+
+         1145 function calls in 0.004 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.002    0.002 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:08:20 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.042 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.018    0.000    0.018    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.006    0.006    0.042    0.042 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 20.97934913635254
+425 0.4605748462677002 secs per iter
+Tue May  5 11:08:31 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.126 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.122    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:08:31 2020    [Profile]rendering
+
+         1145 function calls in 0.007 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005    0.005    0.005 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:08:31 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.037    0.037 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 20.425128936767578
+450 0.46094135284423826 secs per iter
+Tue May  5 11:08:43 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.128 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.124    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:08:43 2020    [Profile]rendering
+
+         1145 function calls in 0.005 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.002    0.002 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:08:43 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.039 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.038    0.038 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.069732666015625
+475 0.460428352355957 secs per iter
+Tue May  5 11:08:54 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.127 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.029    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.123    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:08:54 2020    [Profile]rendering
+
+         1145 function calls in 0.007 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005    0.005    0.005 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:08:54 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.036    0.036 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.115873336791992
+500 0.46145833015441895 secs per iter
+Tue May  5 11:09:06 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.128 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.124    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:09:06 2020    [Profile]rendering
+
+         1145 function calls in 0.005 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    0.003    0.003 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:09:06 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.039 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.038    0.038 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 20.425199508666992
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+525 0.4618920040130615 secs per iter
+Tue May  5 11:09:17 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.126 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.029    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.122    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:09:17 2020    [Profile]rendering
+
+         1145 function calls in 0.008 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005    0.005    0.005 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:09:17 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.043 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.018    0.000    0.018    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.006    0.006    0.042    0.042 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.245044708251953
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+550 0.4636357593536377 secs per iter
+Tue May  5 11:09:29 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.128 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.124    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:09:29 2020    [Profile]rendering
+
+         1145 function calls in 0.005 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    0.003    0.003 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:09:29 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.039 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.038    0.038 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.296836853027344
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+575 0.461821346282959 secs per iter
+Tue May  5 11:09:40 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.131 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.127    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:09:40 2020    [Profile]rendering
+
+         1145 function calls in 0.003 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:09:40 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.037    0.037 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.81331443786621
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+600 0.4619514274597168 secs per iter
+Tue May  5 11:09:52 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.126 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.029    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.122    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:09:52 2020    [Profile]rendering
+
+         1145 function calls in 0.008 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005    0.005    0.005 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:09:52 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.040 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.039    0.039 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.43012046813965
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+625 0.46073016166687014 secs per iter
+Tue May  5 11:10:03 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.124 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.029    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.120    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:10:03 2020    [Profile]rendering
+
+         1145 function calls in 0.009 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.007    0.007    0.007    0.007 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:10:03 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.036 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.036    0.036 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.267131805419922
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+650 0.46045469284057616 secs per iter
+Tue May  5 11:10:15 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.130 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.031    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.126    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:10:15 2020    [Profile]rendering
+
+         1145 function calls in 0.003 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:10:15 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.037    0.037 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.574085235595703
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+675 0.4619154930114746 secs per iter
+Tue May  5 11:10:26 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.126 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.029    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.122    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:10:26 2020    [Profile]rendering
+
+         1145 function calls in 0.007 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005    0.005    0.005 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:10:27 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.036    0.036 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.453779220581055
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+700 0.4695529270172119 secs per iter
+Tue May  5 11:10:38 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.137 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.032    0.000    0.032    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.133    0.007 base_layer.py:710(__call__)
+       20    0.005    0.000    0.005    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:10:38 2020    [Profile]rendering
+
+         1145 function calls in 0.003 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:10:38 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.049 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.018    0.000    0.018    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+       20    0.008    0.000    0.008    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+        1    0.006    0.006    0.048    0.048 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+
+
+PSNR: 21.479066848754883
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+725 0.46792332649230955 secs per iter
+Tue May  5 11:10:50 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.122 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.028    0.000    0.028    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.119    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:10:50 2020    [Profile]rendering
+
+         1145 function calls in 0.011 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.009    0.009    0.009    0.009 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:10:50 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.036 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.035    0.035 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.289207458496094
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+750 0.4608897018432617 secs per iter
+Tue May  5 11:11:01 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.131 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.031    0.000    0.031    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.127    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:11:01 2020    [Profile]rendering
+
+         1145 function calls in 0.003 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:11:01 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.036    0.036 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.857542037963867
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+775 0.4597294330596924 secs per iter
+Tue May  5 11:11:13 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.129 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.030    0.000    0.030    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.125    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:11:13 2020    [Profile]rendering
+
+         1145 function calls in 0.004 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.002    0.002 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:11:13 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.038 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.037    0.037 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 22.096834182739258
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+800 0.46092063903808594 secs per iter
+Tue May  5 11:11:24 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.123 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.028    0.000    0.028    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.120    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:11:24 2020    [Profile]rendering
+
+         1145 function calls in 0.010 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.008    0.008    0.008    0.008 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:11:24 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.036    0.036 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 22.406312942504883
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+825 0.4605792808532715 secs per iter
+Tue May  5 11:11:36 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.125 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.029    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.121    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:11:36 2020    [Profile]rendering
+
+         1145 function calls in 0.009 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.007    0.007    0.007    0.007 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:11:36 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.036 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.036    0.036 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.457595825195312
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+850 0.46025400161743163 secs per iter
+Tue May  5 11:11:47 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.122 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.028    0.000    0.028    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.118    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:11:47 2020    [Profile]rendering
+
+         1145 function calls in 0.011 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.009    0.009    0.009    0.009 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:11:48 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.036 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.035    0.035 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 22.307201385498047
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+875 0.4683237171173096 secs per iter
+Tue May  5 11:11:59 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.127 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.029    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.123    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:11:59 2020    [Profile]rendering
+
+         1145 function calls in 0.007 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.004    0.004    0.004    0.004 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:11:59 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.038 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.037    0.037 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.76329231262207
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+900 0.4609915065765381 secs per iter
+Tue May  5 11:12:11 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.124 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.029    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.120    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:12:11 2020    [Profile]rendering
+
+         1145 function calls in 0.010 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.007    0.007    0.007    0.007 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:12:11 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.036    0.036 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 22.23207664489746
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+925 0.46040925025939944 secs per iter
+Tue May  5 11:12:22 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.136 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.032    0.000    0.032    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.132    0.007 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:12:22 2020    [Profile]rendering
+
+         1145 function calls in 0.002 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:12:22 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.037    0.037 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 21.17872428894043
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+950 0.4604565715789795 secs per iter
+Tue May  5 11:12:34 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.125 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.029    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.121    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:12:34 2020    [Profile]rendering
+
+         1145 function calls in 0.009 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.006    0.006    0.006    0.006 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:12:34 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.036    0.036 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 22.822677612304688
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+975 0.46112518310546874 secs per iter
+Tue May  5 11:12:45 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.130 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.031    0.000    0.031    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.008    0.000    0.126    0.006 base_layer.py:710(__call__)
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:12:45 2020    [Profile]rendering
+
+         1145 function calls in 0.003 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.001    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+
+
+Tue May  5 11:12:45 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.039 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.016    0.000    0.016    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.038    0.038 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 22.675352096557617
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+
+1000 0.4601609230041504 secs per iter
+Tue May  5 11:12:57 2020    [Profile]forward
+
+         110604 function calls (108784 primitive calls) in 0.124 seconds
+
+   Ordered by: internal time
+   List reduced from 267 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      541    0.029    0.000    0.029    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+   380/20    0.007    0.000    0.120    0.006 base_layer.py:710(__call__)
+       20    0.003    0.000    0.003    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:12:57 2020    [Profile]rendering
+
+         1145 function calls in 0.009 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 1 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.007    0.007    0.007    0.007 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+Tue May  5 11:12:57 2020    [Profile]backprop
+
+         20894 function calls (20855 primitive calls) in 0.037 seconds
+
+   Ordered by: internal time
+   List reduced from 280 to 3 due to restriction <0.01>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      753    0.015    0.000    0.015    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_FastPathExecute}
+        1    0.005    0.005    0.037    0.037 {built-in method _pywrap_tensorflow_internal.TFE_Py_TapeGradient}
+       20    0.004    0.000    0.004    0.000 {built-in method _pywrap_tensorflow_internal.TFE_Py_Execute}
+
+
+PSNR: 23.48482894897461
